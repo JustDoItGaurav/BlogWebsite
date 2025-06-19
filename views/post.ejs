@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <%- include("partials/header.ejs") %>
+
+<h1><%= post.title %></h1>
+<p><%= post.content %></p>
+<a href="/">Back</a>
+  <%- include("partials/footer.ejs") %>
+</body>
+</html>
